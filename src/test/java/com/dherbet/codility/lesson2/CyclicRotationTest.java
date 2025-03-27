@@ -7,11 +7,11 @@ import static org.junit.Assert.assertArrayEquals;
 
 public class CyclicRotationTest {
 
-    private static CyclicRotation cyclicRotation;
+    private static GKCyclicRotation cyclicRotation;
 
     @BeforeClass
     public static void setUp() {
-        cyclicRotation = new CyclicRotation();
+        cyclicRotation = new GKCyclicRotation();
     }
 
     @Test
