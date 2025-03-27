@@ -7,11 +7,11 @@ import static org.junit.Assert.assertEquals;
 
 public class BinaryGapTest {
 
-    private static BinaryGap binaryGap;
+    private static GKBinaryGap binaryGap;
 
     @BeforeClass
     public static void setUp() {
-        binaryGap = new BinaryGap();
+        binaryGap = new GKBinaryGap();
     }
 
     @Test
