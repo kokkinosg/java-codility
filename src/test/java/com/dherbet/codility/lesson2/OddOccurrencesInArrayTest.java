@@ -1,17 +1,16 @@
 package com.dherbet.codility.lesson2;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
 public class OddOccurrencesInArrayTest {
 
-    private static OddOccurrencesInArray oddOccurrencesInArray;
+    private static GKOddOccurrencesInArray oddOccurrencesInArray;
 
     @BeforeClass
     public static void setUp() {
-        oddOccurrencesInArray = new OddOccurrencesInArray();
+        oddOccurrencesInArray = new GKOddOccurrencesInArray();
     }
 
     @Test
